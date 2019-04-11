@@ -1,0 +1,75 @@
+/*
+ Theme Name: 	OceanWP Child
+ Theme URI: 	https://oceanwp.org/
+ Author: 		Didde Munck
+ Author URI: 	http://urbandenmark.com/mcare/
+ Description: 	This is a new wesite for Mcare. Mcare is a shop, which repairs broken phones.
+ Template:      oceanwp    
+ Version: 		0.0.1
+ Tags: 			two-columns, right-sidebar, footer-widgets, blog, news, custom-background, custom-menu, post-formats, rtl-language-support, sticky-post, editor-style, threaded                    -comments, translation-ready, buddypress, custom-colors, featured-images, full-width-template, theme-options, e-commerce
+ Text Domain: 	oceanwp
+ License:       GNU General Public License v3.0 or later
+ License URI:   https://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+.page-header {
+    display: none;
+}
+#top-bar {
+    display: none;
+}
+#site-header-inner {
+    display: none;
+}
+#content-wrap{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#book1 {
+  background-color: #28105d;
+  border: 2px solid #ffffff;
+  -webkit-animation-name: book-animation;
+  -webkit-animation-duration: 10s; 
+  animation-name: book-animation;
+  animation-duration: 2s;
+  animation-timing-function: easeInSine;
+  animation-delay: 1s;
+  animation-iteration-count: 100;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes book-animation {
+  from {background-color: #28105d; color: #ffffff; padding-left: 20px; padding-right: 20px; padding-top: 13px; padding-bottom: 13px;}
+  to {background-color: #ffffff; color: #28105d; padding-left: 25px; padding-right: 25px; padding-top: 18px; padding-bottom: 18px;}
+}
+
+/* Standard syntax */
+@keyframes book-animation {
+  from {background-color: #28105d; color: #ffffff; padding-left: 20px; padding-right: 20px; padding-top: 13px; padding-bottom: 13px;}
+  to {background-color: #ffffff; color: #28105d; padding-left: 25px; padding-right: 25px; padding-top: 18px; padding-bottom: 18px;}
+}
+#book2 {
+  background-color: #28105d;
+  border: 2px solid #ffffff;
+  -webkit-animation-name: book-animation2;
+  -webkit-animation-duration: 10s; 
+  animation-name: book-animation2;
+  animation-duration: 2s;
+  animation-timing-function: easeInSine;
+  animation-delay: 1s;
+  animation-iteration-count: 100;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes book-animation2 {
+  from {background-color: #28105d; color: #ffffff; padding-left: 17px; padding-right: 17px; padding-top: 13px; padding-bottom: 13px;}
+  to {background-color: #ffffff; color: #28105d; padding-left: 20px; padding-right: 20px; padding-top: 16px; padding-bottom: 16px;}
+}
+
+/* Standard syntax */
+@keyframes book-animation2 {
+  from {background-color: #28105d; color: #ffffff; 17px; padding-right: 17px; padding-top: 13px; padding-bottom: 13px;}
+  to {background-color: #ffffff; color: #28105d; padding-left: 20px; padding-right: 20px; padding-top: 16px; padding-bottom: 16px;}
+}
